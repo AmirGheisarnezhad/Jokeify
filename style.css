@@ -1,0 +1,193 @@
+/* CSS Reset - */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* -------------------------------------------- */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Happy Monkey", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+.container {
+  background-color: #ffefd5; 
+  width: 70vw;
+  height: 100vh;
+  margin: 20px auto;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(255, 182, 193, 0.5); 
+  border-radius: 20px;
+}
+
+.main-box {
+  background-color: #f0e68c; 
+  width: 60vw;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(135, 206, 250, 0.5); 
+  height: 400px;
+}
+
+#jokeButton {
+  margin-bottom: 15px;
+  padding: 6px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #4682b4; 
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#jokeButton:hover {
+  background-color: #ff4500; 
+  color: white;
+}
+
+#displayJoke {
+  padding: 5px;
+  font-size: 30px;
+  line-height: 50px;
+  font-family: "Happy Monkey", serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #2e8b57; 
+}
